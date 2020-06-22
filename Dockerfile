@@ -55,7 +55,7 @@ RUN n i 12
 
 RUN apt install python3 python3-pip -yqq
 
-RUN pip3 install --upgrade aws-cli
+RUN pip3 install --upgrade awscli
 
 RUN curl https://releases.hashicorp.com/terraform/0.12.19/terraform_0.12.26_linux_amd64.zip > terraform.zip
 RUN unzip terraform.zip -d /usr/local/bin
