@@ -19,8 +19,8 @@ LABEL maintainer="realanmup@gmail.com" \
     org.label-schema.description="Dockerized GitHub Actions runner." \
     org.label-schema.url="https://github.com/realanmup/github-runner" \
     org.label-schema.vcs-url="https://github.com/realanmup/github-runner" \
-    org.label-schema.vendor="Thomas Cardonne" \
-    org.label-schema.docker.cmd="docker run -it tcardonne/github-runner:latest"
+    org.label-schema.vendor="Saurav Giri" \
+    org.label-schema.docker.cmd="docker run -it realanmup/github-runner:latest"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y \
