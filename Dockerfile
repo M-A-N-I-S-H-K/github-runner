@@ -53,7 +53,7 @@ RUN npm i -g yarn n
 
 RUN n i 12
 
-RUN apt install python3 python3-pip
+RUN apt install python3 python3-pip -yqq
 
 RUN pip3 install --upgrade aws-cli
 
